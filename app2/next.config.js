@@ -17,7 +17,7 @@ module.exports = {
       remotes: {
       },
       exposes: {
-        "./luigi": "./src/components/luigi",
+        './luigi': "./src/components/luigi",
       },
     };
     config.cache = false;

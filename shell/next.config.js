@@ -1,4 +1,4 @@
-const { withModuleFederation } = require("@module-federation/nextjs-mf");
+const { withModuleFederation } = require("@module-federation/nextjs-mf")
 
 module.exports = {
   images: {
@@ -28,4 +28,4 @@ module.exports = {
     // Important: return the modified config
     return config;
   },
-};
+}

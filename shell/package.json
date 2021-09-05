@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start"
   },
+  "resolutions": {
+    "webpack": "^5.52.0"
+  },
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@module-federation/nextjs-mf": "^1.1.1",
