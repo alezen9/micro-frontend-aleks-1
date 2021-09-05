@@ -11,6 +11,7 @@
     "webpack": "5.38.1"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
     "@module-federation/nextjs-mf": "^1.1.1",
     "next": "^11.1.2",
     "react": "^17.0.2",

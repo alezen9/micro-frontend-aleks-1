@@ -1,6 +1,5 @@
-const {
-  withModuleFederation,
-} = require("@module-federation/nextjs-mf");
+const { withModuleFederation } = require("@module-federation/nextjs-mf")
+
 module.exports = {
   images: {
     domains: ['upload.wikimedia.org'],
@@ -18,7 +17,7 @@ module.exports = {
       remotes: {
       },
       exposes: {
-        "./luigi": "./components/luigi",
+        "./luigi": "./src/components/luigi",
       },
     };
     config.cache = false;

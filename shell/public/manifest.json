@@ -1,0 +1,9 @@
+{
+    "theme_color": "#ff375f",
+    "background_color": "#111",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Shell",
+    "short_name": "Shell"
+}

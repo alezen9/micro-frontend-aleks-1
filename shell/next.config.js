@@ -15,8 +15,7 @@ module.exports = {
         app1: "app1",
         app2: "app2", 
       },
-      exposes: {
-      },
+      exposes: {},
     };
     config.cache = false;
     withModuleFederation(config, options, mfConf);
